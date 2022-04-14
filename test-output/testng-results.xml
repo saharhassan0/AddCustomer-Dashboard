@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T20:06:09 EET" name="Default suite" finished-at="2022-04-14T20:06:53 EET" duration-ms="43424">
+    <groups>
+    </groups>
+    <test started-at="2022-04-14T20:06:09 EET" name="Default test" finished-at="2022-04-14T20:06:53 EET" duration-ms="43424">
+      <class name="tests.AddCustomerEndToEndTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:tests.AddCustomerEndToEndTest@4a7f959b]" started-at="2022-04-14T20:05:59 EET" name="StartDriver" finished-at="2022-04-14T20:06:09 EET" duration-ms="10313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:tests.AddCustomerEndToEndTest@4a7f959b]" started-at="2022-04-14T20:06:09 EET" name="Login" data-provider="loginData" finished-at="2022-04-14T20:06:43 EET" duration-ms="33898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sahar.hassan@expandcart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="customerData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.AddCustomerEndToEndTest@4a7f959b]" started-at="2022-04-14T20:06:43 EET" name="customerData" data-provider="customerData" finished-at="2022-04-14T20:06:53 EET" duration-ms="9486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sahar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hassan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saherhassan_99@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01000000000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AddCustomerEndToEndTest@4a7f959b]" started-at="2022-04-14T20:06:53 EET" name="teardown" finished-at="2022-04-14T20:06:53 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AddCustomerEndToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
